@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(57, 98, 211));
+}
+
+.logo img{
+    width: 150px;
+}
+.head{
+    display: flex;
+    
+    margin: auto;
+    justify-content: center;
+    justify-items: center;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(61 61 134);
+    text-shadow:1px 6px 15px rgba(105, 101, 101, 0.671);
+}
+.chatbod{
+    background:linen;
+border: 2px solid rgb(61 61 134);  
+max-width: 595px;
+height: 75vh;
+display: block;
+overflow-y: auto;
+margin: auto;
+}
+
+.message{
+    background-color: burlywood;
+    width: 30%;
+    max-width: 40%;
+    height: auto;
+    padding :8px;
+    margin: 10px; 
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.247); */
+    border-radius: 12px;
+}
+.left{
+    float: left;
+    clear: both;
+    color:rgb(61 61 134); 
+    background-color: rgba(211, 210, 210, 0.801);
+}
+.right{
+    float: right;
+    clear: both;
+    background-color: rgb(41 145 233 / 86%);
+    color: whitesmoke;
+}
+.sendbod{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+input#messageinp{
+    width: 36%;
+
+}
+.btn{
+    background-color: rgba(185, 180, 180, 0.774);
+    color: rgb(61 61 134);
+    /* font-weight: bold; */
+    width: 45px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid black;
+}
